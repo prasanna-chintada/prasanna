@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include prasanna_app *.css
+recursive-include prasanna_app *.csv
+recursive-include prasanna_app *.html
+recursive-include prasanna_app *.ico
+recursive-include prasanna_app *.js
+recursive-include prasanna_app *.json
+recursive-include prasanna_app *.md
+recursive-include prasanna_app *.png
+recursive-include prasanna_app *.py
+recursive-include prasanna_app *.svg
+recursive-include prasanna_app *.txt
+recursive-exclude prasanna_app *.pyc
