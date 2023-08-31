@@ -7,30 +7,106 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1",
-  "id",
-  "address"
+  "please_note_that_all_fields_need_to_be_duly_filled",
+  "last_personal_information_and_bio_section",
+  "applicant_name",
+  "email_address",
+  "phone_number",
+  "country_of_residence",
+  "cover_letter",
+  "resume_link",
+  "expected_salary_range_per_month_section",
+  "currency",
+  "column_break_ixckk",
+  "low_range",
+  "column_break_9avol",
+  "upper_range",
+  "submit"
  ],
  "fields": [
   {
-   "fieldname": "name1",
-   "fieldtype": "Data",
-   "label": " name"
-  },
-  {
-   "fieldname": "id",
+   "fieldname": "phone_number",
    "fieldtype": "Int",
-   "label": "id"
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "reqd": 1
   },
   {
-   "fieldname": "address",
+   "fieldname": "please_note_that_all_fields_need_to_be_duly_filled",
+   "fieldtype": "Heading",
+   "label": "Please note that all fields need to be duly filled.  "
+  },
+  {
+   "fieldname": "last_personal_information_and_bio_section",
+   "fieldtype": "Section Break",
+   "label": "last Personal Information and Bio"
+  },
+  {
+   "fieldname": "applicant_name",
    "fieldtype": "Data",
-   "label": "address"
+   "in_list_view": 1,
+   "label": "Applicant Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "country_of_residence",
+   "fieldtype": "Data",
+   "label": "Country of Residence"
+  },
+  {
+   "fieldname": "cover_letter",
+   "fieldtype": "Long Text",
+   "label": " Cover Letter"
+  },
+  {
+   "fieldname": "resume_link",
+   "fieldtype": "Attach",
+   "label": "Resume Link"
+  },
+  {
+   "fieldname": "expected_salary_range_per_month_section",
+   "fieldtype": "Section Break",
+   "label": "Expected salary Range Per Month"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "column_break_ixckk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "low_range",
+   "fieldtype": "Data",
+   "label": "Low Range"
+  },
+  {
+   "fieldname": "column_break_9avol",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "upper_range",
+   "fieldtype": "Currency",
+   "label": "Upper Range"
+  },
+  {
+   "fieldname": "submit",
+   "fieldtype": "Button",
+   "label": "submit"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-29 10:58:43.839848",
+ "modified": "2023-08-31 10:47:41.680821",
  "modified_by": "Administrator",
  "module": "Prasanna App",
  "name": "information",
